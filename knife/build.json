@@ -1,0 +1,20 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "../android.keystore",
+            "storePassword": "android",
+            "alias": "mykey1",
+            "password": "password",
+            "keystoreType": "",
+            "packageType": "apk"
+        },
+        "release": {
+            "keystore": "gameley.keystore",
+            "storePassword": "gameleyandroid",
+            "alias": "gameley",
+            "password": "gameleyandroid",
+            "keystoreType": "JKS",
+            "packageType": "apk"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.riceball.gpknives" version="1.0.49" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>KnifeCrash</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+    <!--<preference name="ShowSplashScreen" value="false"/>-->
+    <preference name="FadeSplashScreen" value="false"/>
+	<preference name="SplashScreenDelay" value="0" />
+
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <!--<edit-config file="AndroidManifest.xml" target="activity" mode="merge">
+            <activity android:screenOrientation="portrait"/>
+        </edit-config>-->
+        <icon src="res/android/icon/ldpi.png" density="ldpi" />
+        <icon src="res/android/icon/mdpi.png" density="mdpi" />
+        <icon src="res/android/icon/hdpi.png" density="hdpi" />
+        <icon src="res/android/icon/xhdpi.png" density="xhdpi" />
+        <icon src="res/android/icon/xxhdpi.png" density="xxhdpi" />
+        <icon src="res/android/icon/xxxhdpi.png" density="xxxhdpi" />
+		
+        <!--<splash src="res/android/screen/splash-land-ldpi.png" density="land-ldpi" />
+        <splash src="res/android/screen/splash-land-mdpi.png" density="land-mdpi" />
+        <splash src="res/android/screen/splash-land-hdpi.png" density="land-hdpi" />
+        <splash src="res/android/screen/splash-land-xhdpi.png" density="land-xhdpi" />
+        <splash src="res/android/screen/splash-land-xxhdpi.png" density="land-xxhdpi" />
+        <splash src="res/android/screen/splash-land-xxxhdpi.png" density="land-xxxhdpi" />
+        <splash src="res/android/screen/splash-port-ldpi.png" density="port-ldpi" />
+        <splash src="res/android/screen/splash-port-mdpi.png" density="port-mdpi" />
+        <splash src="res/android/screen/splash-port-hdpi.png" density="port-hdpi" />
+        <splash src="res/android/screen/splash-port-xhdpi.png" density="port-xhdpi" />
+        <splash src="res/android/screen/splash-port-xxhdpi.png" density="port-xxhdpi" />
+        <splash src="res/android/screen/splash-port-xxxhdpi.png" density="port-xxxhdpi" />-->
+    </platform>
+</widget>
