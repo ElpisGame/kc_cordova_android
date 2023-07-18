@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "104024610304",
+    "firebase_url": "https://knives-crash.firebaseio.com",
+    "project_id": "knives-crash",
+    "storage_bucket": "knives-crash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104024610304:android:eebc11581478f830",
+        "android_client_info": {
+          "package_name": "com.riceball.gpknives"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104024610304-e2940mhftg55vht61fad1k00hjui35kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqRJ6I0Mu427LQuC37pPurN4SBW7zqEWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104024610304-e2940mhftg55vht61fad1k00hjui35kr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "104024610304-hog7lknr9a0h5dp47hooqpprh48l7adk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.xiong.knife",
+                "app_store_id": "1460796876"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-5970272688238017~4507002593"
+    }
+  ],
+  "configuration_version": "1"
+}

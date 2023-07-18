@@ -1,0 +1,79 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"MyMath\"><param name=\"android-package\" value=\"SimpleMath.MyMath\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/manifest/application/activity": [
+            {
+              "xml": "<activity android:screenOrientation=\"\" />",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml",
+              "oldAttrib": {
+                "android:configChanges": "orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode",
+                "android:exported": "true",
+                "android:label": "Knives Crash",
+                "android:launchMode": "singleTop",
+                "android:name": "MainActivity",
+                "android:screenOrientation": "portrait",
+                "android:taskAffinity": "",
+                "android:theme": "@style/Theme.App.SplashScreen",
+                "android:usesCleartextTraffic": "true",
+                "android:windowSoftInputMode": "adjustResize"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "SimpleMath": {
+      "PACKAGE_NAME": "com.riceball.gpknives"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.riceball.gpknives"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "SimpleMath.MyMath",
+      "file": "plugins/SimpleMath/www/MyMath.js",
+      "pluginId": "SimpleMath",
+      "clobbers": [
+        "cordova.plugins.MyMath"
+      ]
+    },
+    {
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "SimpleMath": "1.0.0",
+    "cordova-plugin-splashscreen": "6.0.1"
+  }
+}
